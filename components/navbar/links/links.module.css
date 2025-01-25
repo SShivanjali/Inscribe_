@@ -1,0 +1,63 @@
+.menuButton,
+.mobileLinks {
+    display: none;
+}
+
+.logout {
+    min-width: 100px;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: 500;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin-right: 20px;
+    background-color: var(--foreground);
+    color: var(--background);
+}
+
+@media (max-width: 768px) {
+    .links{
+        position: relative; /* Add this */
+        display: flex; /* Change from none to flex */
+        justify-content: flex-end; /* Add this */
+    }
+
+    .menuButton{
+        display: block;
+        cursor: pointer;
+    }
+    
+    .mobileLinks {
+        /* position: absolute;
+        top: 100px;
+        right: 0;
+        width: 100%;
+        height: calc(100vh - 100px);
+        background-color: var(--bg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px; */
+        position: absolute;
+        top: 60px; /* Adjust based on your header height */
+        right: 0;
+        width: 100%; /* Full width for better mobile experience */
+        background-color: var(--background); /* Match your theme */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 0;
+        gap: 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        z-index: 1000;
+    }
+
+}
+
+.rounded-full {
+    border-radius: 50%; 
+    vertical-align: middle;
+    margin-right: 10px;
+    display: inline-block;
+}
