@@ -11,7 +11,6 @@ const SignIn = () => {
                 <h1>
                     Sign In With google
                 </h1>
-                {/* <LoginForm/> */}
                 <hr />
                 <LoginGoogle/>
             </section>

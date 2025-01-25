@@ -1,10 +1,9 @@
-import React from "react";
+// import React from "react";
+"use server"
 import PostCard from "@/components/postCard/postCard";
 import styles from "./blog.module.css";
 import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
-import { auth } from "@/auth";
-import axios from "axios";
 import {prisma} from "@/app/lib/db";
 type Post = {
   id: BigInt;

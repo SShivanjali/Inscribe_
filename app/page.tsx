@@ -11,7 +11,7 @@ export default function  Home() {
       <div className={styles.textContainer}>
         <h1 className={styles.title}>Learn and Blog</h1>
         <p className={styles.desc}>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati atque natus ab? Minima nam nobis, possimus animi cupiditate debitis minus quos, doloribus rem temporibus laudantium quisquam quibusdam, perferendis dolorum fuga.
+        Unleash your thoughts, share your experiences, and connect with a community that values your voice. Whether you're a seasoned writer or just getting started, our platform offers the perfect space to express yourself.
         </p>
         <div className={styles.buttons}>
           <button className={styles.button}>Learn More</button>
