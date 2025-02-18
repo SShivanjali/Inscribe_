@@ -174,6 +174,3 @@ const getPosts = async () => {
 
 ## **License**
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
->>>>>>> bf98598 (Initial commit)
