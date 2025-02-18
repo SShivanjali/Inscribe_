@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# my-njs-blog-app
-Blog app made using next js for ACM workshop
+Blog app made using next js
 =======
 
 # **Inscribe**
