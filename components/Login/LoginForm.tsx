@@ -1,11 +1,7 @@
-import { loginCred } from "@/actions/auth";
-
-
 const LoginForm = () => {
-  
   return (
     <div>
-      <form action={loginCred} className="login-form">
+      <form className="login-form">
         <div className="form-group">
           <label className="label">Email</label>
           <input
