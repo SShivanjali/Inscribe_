@@ -11,7 +11,7 @@ export default function  Home() {
       <div className={styles.textContainer}>
         <h1 className={styles.title}>Learn and Blog</h1>
         <p className={styles.desc}>
-        Unleash your thoughts, share your experiences, and connect with a community that values your voice. Whether you're a seasoned writer or just getting started, our platform offers the perfect space to express yourself.
+        Unleash your thoughts, share your experiences, and connect with a community that values your voice. Whether you&#39;re a seasoned writer or just getting started, our platform offers the perfect space to express yourself.
         </p>
         <div className={styles.buttons}>
           <button className={styles.button}>Learn More</button>

@@ -6,7 +6,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import {prisma} from "@/app/lib/db";
 type Post = {
-  id: BigInt;
+  id: bigint;
   createdAt: string;
   updatedAt: string;
   title: string;

@@ -11,14 +11,6 @@ interface FormData{
   img : string;
   email:string;
 }
-interface User {
-  id: string;
-  created_at: string;
-  updated_at: string;
-  username: string;
-  email: string;
-  isAdmin?: boolean;
-}
 
 const Create = () => {
   const {data: session} = useSession();

@@ -4,7 +4,7 @@ import styles from "./postCard.module.css"
 import Link from 'next/link'
 
 type Post = {
-  id: BigInt
+  id: bigint
   createdAt: string
   updatedAt: string
   title: string
